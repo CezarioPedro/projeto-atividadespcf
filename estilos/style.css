@@ -6,32 +6,49 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    background: url(fundo003.png) no-repeat fixed center center;
+    background-size: cover;
+}
+
 main{
-    width: 98vw;
+    background-color: white;
+    width: 70vw;
     height: 275px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 25px;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
 }
 
 h1{
+    padding: -4px;
+    margin: auto;
+    margin-top: 25px;
     font-size: 3em;
     text-align: center;
-    margin: 30px;
+    width: 50vw;
+    color: black;
+    text-shadow: 1px 1px 2px black;
 }
 
 h2{
+    font-size: 2em;
     padding: 20px;
     text-align: center;
+    
+    text-shadow: .5px .5px 1px black;
 }
 
 p{
     text-align: center;
     padding: 20px;
+    columns: 2;
 }
 
 p.gestante{
-    columns: 2;
+    columns: 3;
 }
 
 a{
@@ -41,5 +58,14 @@ a{
 
 a:hover{
     color: rgb(78, 78, 78);
+}
+
+img{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    left: 1250px;
+    top: 40px;
+
 }
 
