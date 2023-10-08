@@ -41,6 +41,42 @@ Grandes telas: acima de 1200px
         top: 254px; 
     }
 
+    main.gestantes ul.gestante{
+        position: relative;
+        padding: 15px;
+        columns: 3;
+        top: 256px;
+    }
 
+    main.zeroaseis ul.zeroaseismeses{
+        position: relative;
+        height: 90px;
+        padding: 15px;
+        columns: 2;
+        top: 254px;
+    }
 
+    main.seteaonze ul.seteaonzemeses{
+        height: 90px;  
+        padding: 15px;
+        columns: 2;
+        position: relative;
+        top: 254px;
+    }
+
+    main.umadois ul.umadoisanos{
+        height: 90px;  
+        top: 254px;
+        position: relative;
+        padding: 15px;
+        columns: 2;
+    }
+
+    main.doisatres ul.doisatresanos{
+        height: 90px;  
+        position: relative;
+        padding: 15px;
+        columns: 2;
+        top: 254px;
+    } 
 }
