@@ -9,6 +9,7 @@
 
 body{
     background: url(fundo004.png) scroll center center;
+    background-size: contain;
 }
 
 main{
@@ -67,7 +68,7 @@ ul.gestante{
     background-color: rgba(255, 255, 255, 0.575);
     padding: 15px;
     columns: 3;
-    top: 259px;
+    top: 258px;
     border-radius: 0px 0px 10px 10px;
 }
 
