@@ -6,66 +6,91 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 body{
-    background: url(fundo003.png) no-repeat fixed center center;
-    background-size: cover;
+    background: url(fundo004.png) scroll center center;
 }
 
 main{
-    background-color: white;
-    width: 70vw;
-    height: 275px;
-    margin: auto;
-    margin-top: 25px;
+    width: 310px;
+    height: 400px;
     border: 1px solid black;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+main.gestantes{
+    background: url(gestantefundo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+main.zeroaseis{
+    background: url(bebe0a6fundo.png) no-repeat center center;
+    background-size: cover;
+}
+
+main.seteaonze{
+    background: url(bebe7a11fundo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+main.umadois{
+    background: url(bebe1a2fundo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+main.doisatres{
+    background: url(crianca2a3fundo.png) no-repeat center center;
+    background-size: cover;
 }
 
 h1{
-    padding: -4px;
-    margin: auto;
-    margin-top: 25px;
-    font-size: 3em;
+    margin: 30px;
+    padding: 10px;
     text-align: center;
-    width: 50vw;
-    color: black;
-    text-shadow: 1px 1px 2px black;
+    color: cornflowerblue;
+    text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.39);
 }
 
 h2{
-    font-size: 2em;
-    padding: 20px;
+    color: cornflowerblue;
+    background-color: rgba(255, 255, 255, 0.575);
     text-align: center;
-    
-    text-shadow: .5px .5px 1px black;
+    position: relative;
+    top: 259px;
 }
 
-p{
-    text-align: center;
-    padding: 20px;
-    columns: 2;
-}
-
-p.gestante{
+ul.gestante{    
+    list-style-type: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 15px;
     columns: 3;
+    top: 259px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ul.zeroaseismeses{  
+    height: 90px;  
+    list-style-type: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 15px;
+    columns: 2;
+    top: 259px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ul.gestante li{
+    padding: 5px;
 }
 
 a{
-    color: black;
     text-decoration: none;
+    color: cornflowerblue;
 }
 
 a:hover{
-    color: rgb(78, 78, 78);
+    text-shadow: .5px .5px .6px cornflowerblue;
 }
-
-img{
-    width: 60px;
-    height: 40px;
-    position: relative;
-    left: 1250px;
-    top: 40px;
-
-}
-
