@@ -6,6 +6,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+:root{
+    --cor001:cornflowerblue;
+}
+
 
 body{
     background: url(fundo004.png) scroll center center;
@@ -55,7 +59,7 @@ h1{
 }
 
 h2.gestantes{
-    color: cornflowerblue;
+    color: var(--cor001);
     background-color: rgba(255, 255, 255, 0.575);
     text-align: center;
     position: relative;
@@ -71,7 +75,23 @@ h2.zeroaseis{
 }
 
 h2.seteaonze{
-    color: cornflowerblue;
+    color: var(--cor001);
+    background-color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    position: relative;
+    top: 254px; 
+}
+
+h2.umadois{
+    color: var(--cor001);
+    background-color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    position: relative;
+    top: 254px; 
+}
+
+h2.doisatres{
+    color: var(--cor001);
     background-color: rgba(255, 255, 255, 0.575);
     text-align: center;
     position: relative;
@@ -110,6 +130,28 @@ ul.seteaonzemeses{
     border-radius: 0px 0px 10px 10px;
 }
 
+ul.umadoisanos{  
+    height: 90px;  
+    list-style-type: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 15px;
+    columns: 2;
+    top: 254px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ul.doisatresanos{  
+    height: 90px;  
+    list-style-type: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 15px;
+    columns: 2;
+    top: 254px;
+    border-radius: 0px 0px 10px 10px;
+}
+
 ul li{
     padding: 5px;
 }
@@ -117,9 +159,9 @@ ul li{
 a{
     text-decoration: none;
     font-weight: bold;
-    color: cornflowerblue;
+    color: var(--cor001);
 }
 
 a:hover{
-    text-shadow: .5px .5px .6px cornflowerblue;
+    text-shadow: .5px .5px .6px var(--cor001);
 }
