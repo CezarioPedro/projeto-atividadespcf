@@ -54,12 +54,28 @@ h1{
     text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.39);
 }
 
-h2{
+h2.gestantes{
     color: cornflowerblue;
     background-color: rgba(255, 255, 255, 0.575);
     text-align: center;
     position: relative;
     top: 256px;
+}
+
+h2.zeroaseis{
+    color: cornflowerblue;
+    background-color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    position: relative;
+    top: 254px;
+}
+
+h2.seteaonze{
+    color: cornflowerblue;
+    background-color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    position: relative;
+    top: 254px; 
 }
 
 ul.gestante{    
@@ -79,16 +95,28 @@ ul.zeroaseismeses{
     background-color: rgba(255, 255, 255, 0.575);
     padding: 15px;
     columns: 2;
-    top: 259px;
+    top: 254px;
     border-radius: 0px 0px 10px 10px;
 }
 
-ul.gestante li{
+ul.seteaonzemeses{  
+    height: 90px;  
+    list-style-type: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 15px;
+    columns: 2;
+    top: 254px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ul li{
     padding: 5px;
 }
 
 a{
     text-decoration: none;
+    font-weight: bold;
     color: cornflowerblue;
 }
 
