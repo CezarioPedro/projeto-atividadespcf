@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width: 992px){
+
+    main.gestantes h2.gestantes{
+        text-align: center;
+        position: relative;
+        top: 256px;
+    }
+
+    main.zeroaseis h2.zeroaseis{
+        text-align: center;
+        position: relative;
+        top: 254px;
+    }
+
+    main.seteaonze h2.seteaonze{
+        text-align: center;
+        position: relative;
+        top: 254px;
+    }
+
+    main.umadois h2.umadois{
+        text-align: center;
+        position: relative;
+        top: 254px; 
+    }
+
+    main.doisatres h2.doisatres{
+        text-align: center;
+        position: relative;
+        top: 254px; 
+    }
+
+
+
+}

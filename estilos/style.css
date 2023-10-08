@@ -58,44 +58,10 @@ h1{
     text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.39);
 }
 
-h2.gestantes{
+h2{
     color: var(--cor001);
     background-color: rgba(255, 255, 255, 0.575);
     text-align: center;
-    position: relative;
-    top: 256px;
-}
-
-h2.zeroaseis{
-    color: cornflowerblue;
-    background-color: rgba(255, 255, 255, 0.575);
-    text-align: center;
-    position: relative;
-    top: 254px;
-}
-
-h2.seteaonze{
-    color: var(--cor001);
-    background-color: rgba(255, 255, 255, 0.575);
-    text-align: center;
-    position: relative;
-    top: 254px; 
-}
-
-h2.umadois{
-    color: var(--cor001);
-    background-color: rgba(255, 255, 255, 0.575);
-    text-align: center;
-    position: relative;
-    top: 254px; 
-}
-
-h2.doisatres{
-    color: var(--cor001);
-    background-color: rgba(255, 255, 255, 0.575);
-    text-align: center;
-    position: relative;
-    top: 254px; 
 }
 
 ul.gestante{    
