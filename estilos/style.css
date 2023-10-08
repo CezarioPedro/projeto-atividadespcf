@@ -59,7 +59,7 @@ h2{
     background-color: rgba(255, 255, 255, 0.575);
     text-align: center;
     position: relative;
-    top: 259px;
+    top: 256px;
 }
 
 ul.gestante{    
@@ -68,7 +68,7 @@ ul.gestante{
     background-color: rgba(255, 255, 255, 0.575);
     padding: 15px;
     columns: 3;
-    top: 258px;
+    top: 256px;
     border-radius: 0px 0px 10px 10px;
 }
 
