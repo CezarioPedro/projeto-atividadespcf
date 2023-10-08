@@ -19,7 +19,7 @@ body{
 main{
     width: 310px;
     height: 400px;
-    border: 1px solid black;
+    border: 1px solid var(--cor001);
     margin: auto;
     margin-bottom: 10px;
     border-radius: 10px;
